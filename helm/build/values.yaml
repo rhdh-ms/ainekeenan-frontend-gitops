@@ -1,0 +1,15 @@
+app:
+  name: ainekeenan-poi-map-app
+  namespace: ainekeenan
+  cluster: .apps.igb2792k.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-ms/ainekeenan-frontend
+  org: rhdh-ms
+  name: ainekeenan-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: ainekeenan/poi-map-app
+  tag: latest
